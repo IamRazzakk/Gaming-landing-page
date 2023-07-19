@@ -1,0 +1,220 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 40px;
+}
+
+.nav-title {
+    color: rgb(255, 13, 194);
+    margin-left: 5px;
+}
+
+.nav-title {
+    color: Linear;
+}
+
+.nav-text-item ul a {
+    margin-left: 32px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 1.12rem;
+}
+
+.nav-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    border: none;
+}
+
+/* banner section start hear  */
+header {
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-container {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-size: 100vh; */
+}
+
+.banner-text-content {
+    width: 901px;
+    height: 700px;
+    text-align: center;
+    padding-top: 148px;
+
+}
+
+.banner-text-content h4 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 0px;
+    padding: 0px;
+    /* padding-top: 187px; */
+}
+
+.banner-text-content h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    /* height: 578px;
+    width: 804px; */
+    /* padding: 0px; */
+    /* padding-bottom: 24px; */
+}
+
+.banner-text-content p {
+    color: #534C64;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    /* padding-left: 140px; */
+    text-transform: lowercase;
+}
+
+.header-btn-section {
+    margin-right: 80px;
+}
+
+.first-btn {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+.secound-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 10px 20px;
+    border: none;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.banner-img img {
+    height: 578px;
+    width: 680px;
+}
+
+/* banner section done hear  */
+.we-are-gamer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-are-gamer-section h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.we-are-gamer-section p {
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.gamer-btn {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    /* text-align: right; */
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
+
+.we-are-gamer-section .purpose {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.we-are-gamer-section .unleash {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.we-are-gamer-section {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
